@@ -1,3 +1,25 @@
+:root {
+  --primary-color: #ff5d5d;
+  --secondary-color: #ffe3a9;
+  --test-color: #a25b5b;
+}
+
 h1 {
-  color: red;
+  font-size: 90px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  size: 200px;
+  color: var(--test-color);
+  font-weight: 900;
+}
+
+.quote,
+.quote-by {
+  color: #ff5d5d;
+  font-size: 28px;
+}
+
+.landing-page {
+  background-size: 180%;
+  background-repeat: no-repeat;
 }
