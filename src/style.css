@@ -11,15 +11,54 @@ h1 {
   size: 200px;
   color: var(--test-color);
   font-weight: 900;
+  text-shadow: 1px 2px grey;
 }
 
 .quote,
 .quote-by {
-  color: #ff5d5d;
-  font-size: 28px;
+  color: var(--primary-color);
+  font-size: 35px;
 }
 
 .landing-page {
   background-size: 180%;
   background-repeat: no-repeat;
+}
+
+.subtle-links {
+  text-decoration: none;
+  border: var(--test-color) solid;
+  padding: 10px 20px;
+  margin: 10px 50px;
+  background-color: #ece5d7;
+  border-radius: 4px;
+  box-shadow: 0.5px 1px grey;
+  color: var(--test-color);
+}
+.center-links {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+}
+
+.about-image {
+  display: flex;
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.about-heading,
+.contact-heading {
+  text-align: center;
+  font-size: 35px;
+  color: #ff5d5d;
+}
+
+.contact-email {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
 }
