@@ -25,11 +25,12 @@ h1 {
 }
 
 .landing-page {
+  background-image: "src/images/pencils.jpg";
   background-size: 180%;
   background-repeat: no-repeat;
 }
 
-.subtle-links {
+.subtle-links {s
   text-decoration: none;
   border: var(--test-color) solid;
   padding: 10px 20px;
