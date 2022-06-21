@@ -75,23 +75,36 @@ ul {
     display: flex;
   }
 }
+
+.center-links,
 a:hover {
-  color: rgba(219, 99, 243, 0.849);
+  color: #b56576;
+  background-color: hsl(353, 100%, 98%);
+}
+.contact-email a,
+.contact-phone:hover {
+  color: #b56576;
+  text-decoration: underline;
 }
 
 .about-image {
   display: flex;
-  display: block;
   max-width: 50%;
   margin: 0 auto;
   border-radius: 5px;
 }
 
-.contact-email {
+.contact-email,
+.contact-phone {
   display: block;
   text-align: center;
   font-size: 35px;
   margin-top: 40px;
+}
+.contact-email a,
+.contact-phone a {
+  text-decoration: none;
+  color: var(--test-color);
 }
 
 .p-branding {
