@@ -36,12 +36,12 @@ p {
   padding: 0px 80px 0px 80px;
   text-align: center;
 }
-ul {
+.services-container ul {
   display: inline-block;
   text-align: left;
   font-family: "League Spartan", sans-serif;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 30px;
 }
 .landing-page {
   background-size: 50%;
@@ -89,7 +89,7 @@ a:hover {
 
 .about-image {
   display: flex;
-  max-width: 50%;
+  max-width: 80%;
   margin: 0 auto;
   border-radius: 5px;
 }
